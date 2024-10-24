@@ -1,4 +1,4 @@
-import { FaInstagram, FaWhatsapp, FaEnvelope, FaPhone, FaMapMarkerAlt, FaGithub } from 'react-icons/fa';
+import { FaInstagram, FaEnvelope, FaPhone, FaMapMarkerAlt, FaGithub } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -29,10 +29,7 @@ const Footer = () => {
           <a href="https://www.instagram.com/febaulyy_" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
             <FaInstagram size={24} />
           </a>
-          <a href="https://www.whatsapp.com/0881-0243-75951" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
-            <FaWhatsapp size={24} />
-          </a>
-          <a href="https://github.com/febaulyy" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
+        <a href="https://github.com/febaulyy" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">
             <FaGithub size={24} />
           </a>
         </div>
